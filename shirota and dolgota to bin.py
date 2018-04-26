@@ -6,7 +6,6 @@ def perevod(shd):
   ss = int(listshd[2])
   znak = listshd[3]
   ddd = dd + mm/60 + ss/3600
-  ddd = int(ddd)
   if znak == 'N':
     ddd = ddd
   else:
@@ -17,7 +16,6 @@ def perevod(shd):
   ss2 = int(listshd[7])
   znak2 = listshd[8]
   ddd2 = dd2 + mm2/60 + ss2/3600
-  ddd2 = int(ddd2)
   if znak2 == 'W':
     ddd2 = ddd2
   else:
